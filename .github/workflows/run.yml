@@ -20,7 +20,7 @@ jobs:
           GLADOS: ${{ secrets.GLADOS }}
           NOTIFY: ${{ secrets.NOTIFY }}
       - name: 'Send mail'
-        uses: action-send-mail@master
+        uses: Mmingdev/action-send-mail@master
         with:
           server_address: smtp.126.com
           server_port: 465
