@@ -30,4 +30,4 @@ jobs:
           body: 'Test send email'
           to: dmingchang@126.com
           from: GitHub Actions
-          content_type: text/plain
+#          content_type: text/plain
